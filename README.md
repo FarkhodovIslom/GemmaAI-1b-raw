@@ -33,21 +33,21 @@ A lightweight, open-source AI assistant using [Gemma 3 1B Instruction-Tuned](htt
 ### 2. Download Model
 - [Gemma 3 1b](https://pixeldrain.com/u/pM9qtTWJ)
 
-### 2. Clone the repo
+### 3. Clone the repo
 ```bash
 git clone https://github.com/FarkhodovIslom/GemmaAI-1b-raw.git
 cd GemmaAI-1b-raw
 ```
 
-### 3. Put your model file
+### 4. Put your model file
 Download your `.gguf` model (e.g. `gemma-3-1b-XXS.gguf`) and place it in the `core/` folder.
 
-### 4. Create the model in Ollama
+### 5. Create the model in Ollama
 ```bash
 ollama create gemma-mini -f Modelfile
 ```
 
-### 5. Run it
+### 6. Run it
 ```bash
 ollama run gemma-mini
 ```
@@ -56,7 +56,7 @@ ollama run gemma-mini
 
 ## ⚙️ Modelfile (edit for your prompt)
 ```bash
-FROM ./core/gemma-3-1b-it-UD-IQ2_XXS.gguf
+FROM ./core/gemma-3-1b-XXS.gguf
 
 PARAMETER temperature 0.7
 PARAMETER top_p 0.9
