@@ -1,0 +1,4 @@
+FROM ./core/gemma-3-1b-XXS.gguf
+
+PARAMETER temperature 0.7
+PARAMETER top_p 0.9

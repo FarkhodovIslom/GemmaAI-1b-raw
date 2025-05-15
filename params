@@ -1,0 +1,12 @@
+{
+    "stop": [
+        "<end_of_turn>",
+        "<eos>"
+    ],
+    "temperature": 1.0,
+    "min_p" : 0.01,
+    "repeat_penalty" : 1.0,
+    "top_k" : 64,
+    "top_p" : 0.95,
+    "num_predict" : 32768
+}
