@@ -30,6 +30,9 @@ A lightweight, open-source AI assistant using [Gemma 3 1B Instruction-Tuned](htt
 ### 1. Install Ollama
 - [Download for Windows, Mac, Linux](https://ollama.com/download)
 
+### 2. Download Model
+- [Gemma 3 1b](https://pixeldrain.com/u/pM9qtTWJ)
+
 ### 2. Clone the repo
 ```bash
 git clone https://github.com/FarkhodovIslom/GemmaAI-1b-raw.git
