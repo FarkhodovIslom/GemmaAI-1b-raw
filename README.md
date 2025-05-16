@@ -3,9 +3,6 @@
 A lightweight, open-source AI assistant using [Gemma 3 1B Instruction-Tuned](https://pixeldrain.com/u/pM9qtTWJ), packed into a minimal `.gguf` format (~600MB). Works even on weak hardware with CPU-only inference using [Ollama](https://ollama.com/).
 
 ---
-(⚠️ .safetensors model is not included!)
-
----
 
 ## 🚀 Features
 - Ultra-light 1B model (600MB) for fast startup and low RAM
@@ -68,7 +65,7 @@ SYSTEM "You're a helpful assistant that replies concisely and casually, with a t
 
 ## 🧪 Example prompt
 ```bash
-> What's the difference between JavaScript and TypeScript?
+> What is the difference between JavaScript and TypeScript?
 ```
 
 ---
